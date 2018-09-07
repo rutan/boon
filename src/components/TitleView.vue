@@ -4,7 +4,8 @@
     <h2>Web技術だけでカメラアプリをつくる話</h2>
     <p>
       このアプリはブラウザの機能でカメラアプリっぽいものを作ってみるデモです。<br>
-      カメラの権限を要求するため、最新のChrome/Safariをご利用ください。
+      カメラの権限を要求するため、最新のChrome/Safariをご利用ください。<br>
+      <a href="https://github.com/rutan/boon" target="_blank">GitHub: rutan/boon</a>
     </p>
     <button @click="onClickStart">はじめる</button>
   </div>
@@ -66,6 +67,10 @@ export default {
     margin: 2em 0;
     font-size: 16px;
     line-height: 1.6;
+  }
+
+  a {
+    color: #fff;
   }
 
   button {
